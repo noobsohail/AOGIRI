@@ -1,0 +1,11 @@
+pyrogram
+tgcrypto
+bs4
+aiohttp
+aiofiles
+redis
+asyncio
+AnilistPython==0.1.3
+pyromod
+psutil
+redis
