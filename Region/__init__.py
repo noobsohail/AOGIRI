@@ -12,13 +12,13 @@ LOGS = logging.getLogger("AnimeBot")
 LOGS.setLevel(level=logging.INFO)
 
 #-------------------------------VARS-----------------------------------------
-REDIS_URI = os.environ.get("REDIS_URI","")
+REDIS_URI = os.environ.get("REDIS_URI","redis-16999.c92.us-east-1-3.ec2.cloud.redislabs.com:16999")
 REDIS_URI = REDIS_URI.split(":")
-REDIS_PASS = os.environ.get("REDIS_PASS","")
-BOT_TOKEN = os.environ.get("BOT_TOKEN","")
+REDIS_PASS = os.environ.get("REDIS_PASS","YyYaCkWuBSyme5C6vkYTPk1e4LHenFbW")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","5343045120:AAFx4-CSTguKQXWZFUG13mrjuRmk5pUdf60")
 API_ID = os.environ.get("API_ID",2663335)
 API_HASH = os.environ.get("API_HASH","a4476bdb326701fdadfe834593db59eb")
-OWNER = list(filter(lambda x: x, map(int, os.environ.get("OWNER_ID", "93").split())))
+OWNER = list(filter(lambda x: x, map(int, os.environ.get("OWNER_ID", "5531584953").split())))
 #-------------------------------DEFAULT---------------------------------------
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split()
 plugins = dict(root="Region/plugin")
